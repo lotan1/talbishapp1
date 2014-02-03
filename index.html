@@ -21,24 +21,44 @@
   	<div data-role="content"><br>
 	<h2><a href="/#login">loginlink</a>  	</h2>
   	</div>
-ימין
-<img src="images.jpg" width="210" height="269"  alt="תמונה של איש"/>
-שמאל
-<script>
+  <p>ימין <img src="images.jpg" width="210" height="269"  alt="תמונה של איש"/>
+    שמאל  </p>
+  <p><a href="https://github.com/lotan1/talbishapp1">mysource</a></p>
+  
+    <script>
 
-</script> 
-<div data-role="footer"> Lemata  </div>
+    </script> 
+    
+    <div data-role="footer"> 
+      <h3>Lemata </h3>
+    </div>
 </div>
 
-
+  <div data-role="page" id="page2"> 
+    <div data-role="collapsible-set">
+      <div data-role="collapsible">
+        <h3>Header</h3>
+        <p>Content</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Header</h3>
+        <p>Content</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Header</h3>
+        <p>Content</p>
+      </div>
+      <a href="/#login">loginlink</a>
+    </div>
+  </div>
 
 <div data-role="page" id="login">
-<div data-role="content">
+  <div data-role="content">
     <h2>Login</h2>
     <p>login-Content    </p>
     <p>
       <input type="text" class="ui-btn-text">
-    </p>
+      </p>
     <p>
       <select name="שם" size="8" class="ui-li-content" id="שם" tabindex="3" title="שם">
         <option>רחובות</option>
@@ -47,13 +67,12 @@
         
     1,2,3
       </select>
-    </p>
+      </p>
     <p>
-     <div class="ui-btn-up-b" style="padding:5px;background:#fafafa;width:55px;border:1px solid #ccc">
-    <a href="#main" class="easyui-linkbutton" iconCls="icon-cancel">Sababa</a>     </div>
-</div>
-
-
+    <div class="ui-btn-up-b" style="padding:5px;background:#fafafa;width:55px;border:1px solid #ccc">
+      <a href="#main" class="easyui-linkbutton" iconCls="icon-cancel">Sababa</a>     </div>
+     <a href="/#page2">page2</a>
+  </div>
 <script type="text/javascript">
 $(function() {
 	$( "#Button1" ).button(); 
